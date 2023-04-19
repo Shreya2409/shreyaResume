@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/shreyaResume/static/css/main.43e782ca.css",
-    "main.js": "/shreyaResume/static/js/main.f2064c32.js",
-    "static/media/resume.pdf": "/shreyaResume/static/media/resume.944ae2c2747f86318de8.pdf",
+    "main.css": "/shreyaResume/static/css/main.858afac6.css",
+    "main.js": "/shreyaResume/static/js/main.7e283cb4.js",
     "static/media/boy.png": "/shreyaResume/static/media/boy.5ca4b670a32b71681d2c.png",
     "static/media/glassesimoji.png": "/shreyaResume/static/media/glassesimoji.a08bdab12e8eb56a6874.png",
+    "static/media/resume.pdf": "/shreyaResume/static/media/resume.64b9c7f80e881abab6b1.pdf",
     "static/media/thumbup.png": "/shreyaResume/static/media/thumbup.e06790ba656f0397cbe5.png",
     "static/media/humble.png": "/shreyaResume/static/media/humble.c8b32b53675e68978981.png",
     "static/media/heartemoji.png": "/shreyaResume/static/media/heartemoji.26b1b6ed5e0e44083b28.png",
@@ -12,11 +12,11 @@
     "static/media/Vector2.png": "/shreyaResume/static/media/Vector2.28db5bfd58081dd1df1b.png",
     "static/media/glasses.png": "/shreyaResume/static/media/glasses.71d7c1b0ff0b870a9d7d.png",
     "index.html": "/shreyaResume/index.html",
-    "main.43e782ca.css.map": "/shreyaResume/static/css/main.43e782ca.css.map",
-    "main.f2064c32.js.map": "/shreyaResume/static/js/main.f2064c32.js.map"
+    "main.858afac6.css.map": "/shreyaResume/static/css/main.858afac6.css.map",
+    "main.7e283cb4.js.map": "/shreyaResume/static/js/main.7e283cb4.js.map"
   },
   "entrypoints": [
-    "static/css/main.43e782ca.css",
-    "static/js/main.f2064c32.js"
+    "static/css/main.858afac6.css",
+    "static/js/main.7e283cb4.js"
   ]
 }
