@@ -43,8 +43,13 @@ const Services = () => {
                 <div style={{ top: '19rem', left: '12rem' }}>
                     <Card emoji={Humble}
                         heading={'UI/UX'}
-                        details={"HTML, CSS, Javascript, React, Jquery"} />
+                        details={"HTML, CSS, Javascript, React, Jquery"}
+                        color="rgba(252, 166, 31, 0.45)" />
                 </div>
+                <div
+                    className="blur s-blur2"
+                    style={{ background: "var(--purple)" }}
+                ></div>
             </div>
         </div>
     )

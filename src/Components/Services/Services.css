@@ -41,7 +41,16 @@
 /* right sided */
 .cards {
   position: relative;
+  margin-left: 10rem;
 }
 .cards > * {
   position: absolute;
+}
+
+/* blur */
+
+
+.s-blur1 {
+  top: 13rem;
+  left: -18rem;
 }
