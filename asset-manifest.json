@@ -1,9 +1,11 @@
 {
   "files": {
     "main.css": "/shreyaResume/static/css/main.858afac6.css",
-    "main.js": "/shreyaResume/static/js/main.7e283cb4.js",
+    "main.js": "/shreyaResume/static/js/main.b1753aff.js",
+    "static/media/haryana.jpg": "/shreyaResume/static/media/haryana.b85ebc74ad7502a78a61.jpg",
     "static/media/boy.png": "/shreyaResume/static/media/boy.5ca4b670a32b71681d2c.png",
     "static/media/glassesimoji.png": "/shreyaResume/static/media/glassesimoji.a08bdab12e8eb56a6874.png",
+    "static/media/argos.png": "/shreyaResume/static/media/argos.1c74832364fe9723f93b.png",
     "static/media/resume.pdf": "/shreyaResume/static/media/resume.64b9c7f80e881abab6b1.pdf",
     "static/media/thumbup.png": "/shreyaResume/static/media/thumbup.e06790ba656f0397cbe5.png",
     "static/media/humble.png": "/shreyaResume/static/media/humble.c8b32b53675e68978981.png",
@@ -11,12 +13,13 @@
     "static/media/crown.png": "/shreyaResume/static/media/crown.dbe416beae9b49b842ab.png",
     "static/media/Vector2.png": "/shreyaResume/static/media/Vector2.28db5bfd58081dd1df1b.png",
     "static/media/glasses.png": "/shreyaResume/static/media/glasses.71d7c1b0ff0b870a9d7d.png",
+    "static/media/wipro.jpg": "/shreyaResume/static/media/wipro.dcee66c8b2589995ce4a.jpg",
     "index.html": "/shreyaResume/index.html",
     "main.858afac6.css.map": "/shreyaResume/static/css/main.858afac6.css.map",
-    "main.7e283cb4.js.map": "/shreyaResume/static/js/main.7e283cb4.js.map"
+    "main.b1753aff.js.map": "/shreyaResume/static/js/main.b1753aff.js.map"
   },
   "entrypoints": [
     "static/css/main.858afac6.css",
-    "static/js/main.7e283cb4.js"
+    "static/js/main.b1753aff.js"
   ]
 }
