@@ -1,11 +1,11 @@
 import React from 'react'
 import './Works.css'
-import Bsw from "../../img/bsw.jpg"
-import haryana from "../../img/haryana.jpg"
+import Bsw from "../../img/bsw.png"
+import haryana from "../../img/haryana.png"
 import argos from "../../img/argos.png"
 import accenture from "../../img/accenture.png"
-import wipro from "../../img/wipro.jpg"
-
+import wipro from "../../img/wipro.png"
+import sainsburys from "../../img/sainsburys.png"
 
 const Works = () => {
   return (
@@ -14,13 +14,13 @@ const Works = () => {
          <div className="awesome">
                 <span>Works for All these</span>
                 <span>Brands & Clients</span>
-                <spane>Hello Recruiters please find
+                <span>Hello Recruiters please find
                     <br />
                     my awsome services are
                     <br/>
                     my awsome services are
                     <br/>
-                </spane>
+                </span>
                     <button className="button s-button">Hire Me</button>
                    <div className="blur s-blur" style={{ background: "#ABF1FF94" }}>
                 </div>
@@ -39,7 +39,7 @@ const Works = () => {
                 <div className="w-secCircle">
                   <img src={argos} alt=""/>
                 </div>
-                <div class="w-secCircle">
+                <div className="w-secCircle">
                   <img src={accenture} alt="" />
                 </div>
                 <div className="w-secCircle">
@@ -47,8 +47,13 @@ const Works = () => {
                 </div>
               </div>
           {/* background circles */}
-          <div className="w-backCircle blueCircle"></div>
-            </div>
+          <div className="w-backCircle blueCircle">
+
+          </div>
+          <div className="w-backCircle yellowCircle">
+
+          </div>
+        </div>
     </div>
   )
 }
