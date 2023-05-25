@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/shreyaResume/static/css/main.8290253c.css",
-    "main.js": "/shreyaResume/static/js/main.257bba9c.js",
+    "main.css": "/shreyaResume/static/css/main.1b1780c8.css",
+    "main.js": "/shreyaResume/static/js/main.0b7a5382.js",
     "static/media/ecommerce.png": "/shreyaResume/static/media/ecommerce.522da76635d52117102b.png",
     "static/media/sidebar.png": "/shreyaResume/static/media/sidebar.b2225070b8adae68d063.png",
     "static/media/musicapp.png": "/shreyaResume/static/media/musicapp.f1c301f91904ef5f9249.png",
@@ -23,11 +23,11 @@
     "static/media/glasses.png": "/shreyaResume/static/media/glasses.71d7c1b0ff0b870a9d7d.png",
     "static/media/haryana.png": "/shreyaResume/static/media/haryana.077f8a9fa5c57847d067.png",
     "index.html": "/shreyaResume/index.html",
-    "main.8290253c.css.map": "/shreyaResume/static/css/main.8290253c.css.map",
-    "main.257bba9c.js.map": "/shreyaResume/static/js/main.257bba9c.js.map"
+    "main.1b1780c8.css.map": "/shreyaResume/static/css/main.1b1780c8.css.map",
+    "main.0b7a5382.js.map": "/shreyaResume/static/js/main.0b7a5382.js.map"
   },
   "entrypoints": [
-    "static/css/main.8290253c.css",
-    "static/js/main.257bba9c.js"
+    "static/css/main.1b1780c8.css",
+    "static/js/main.0b7a5382.js"
   ]
 }
