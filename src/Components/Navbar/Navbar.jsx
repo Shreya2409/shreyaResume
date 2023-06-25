@@ -54,7 +54,7 @@ function Navbar() {
               smooth={true}
               activeClass="activeClass"
             >
-              <li>Qualification</li>
+              <li>Qualifications</li>
             </Link>
           </ul>
         </div>

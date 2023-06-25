@@ -1,17 +1,19 @@
 import React, { useContext } from "react";
 import "./Intro.css";
-import Github from "../../img/github.png";
-import LinkedIn from "../../img/linkedin.png";
-import Instaram from "../../img/instagram.png";
+import Github from "../../img/github1.png";
+import Githubdark from "../../img/github.png";
+import LinkedIn from "../../img/linkedin1.png";
+import Naukri from "../../img/naukri.png";
 import Vector1 from "../../img/Vector1.png";
 import Vector2 from "../../img/Vector2.png";
-import boy from "../../img/boy.png";
+import boy from "../../img/hireme.jpg";
 import thumbup from "../../img/thumbup.png";
 import crown from "../../img/crown.png";
 import glassesimoji from "../../img/glassesimoji.png";
 import FloatingDiv from "../FloatingDiv/FloatingDiv";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
+import { Link } from "react-scroll";
 
 const Intro = () => {
   // context
@@ -20,7 +22,7 @@ const Intro = () => {
 
   const transition = { duration: 2, type: "spring" };
   return (
-    <div className="intro">
+    <div className="Intro" id="Intro">
       <div className="i-left">
         <div className="i-name">
           <span style={{ color: darkMode ? "white" : "" }}>Hy! I Am</span>
@@ -30,17 +32,24 @@ const Intro = () => {
             and development and producting the Quality work
           </span>
         </div>
-
-        <button className="button i-button">Hire Me</button>
+        <Link
+          spy={true}
+          to="Contact"
+          smooth={true}
+          activeClass="activeClass"
+          offset={-30}
+        >
+          <button className="button i-button">Hire Me</button>
+        </Link>
         <div className="i-icons">
-          <a>
-            <img src={Github} alt="" />
+          <a href="https://github.com/Shreya2409">
+            <img src={darkMode ? Githubdark : Github} alt="" />
           </a>
-          <a>
+          <a href="https://www.linkedin.com/in/shreya-khare-b7105a116/">
             <img src={LinkedIn} alt="" />
           </a>
-          <a>
-            <img src={Instaram} alt="" />
+          <a href="https://www.naukri.com/mnjuser/profile?id=&altresid">
+            <img src={Naukri} alt="" />
           </a>
         </div>
       </div>
@@ -56,7 +65,6 @@ const Intro = () => {
           className="floating-div"
         />
         <motion.div
-          style={{ top: "-4%", left: "68%" }}
           initial={{ top: "-4%", left: "74%" }}
           whileInView={{ left: "68%" }}
           transition={transition}
@@ -65,9 +73,9 @@ const Intro = () => {
           <FloatingDiv image={crown} txt1="Web" txt2="Developer" />
         </motion.div>
         <motion.div
-          style={{ top: "18rem", left: "0rem" }}
+          style={{ top: "18rem", left: "10%" }}
           initial={{ top: "18rem", left: "9rem" }}
-          whileInView={{ left: "0rem" }}
+          whileInView={{ left: "-2%" }}
           transition={transition}
           className="floating-div"
         >

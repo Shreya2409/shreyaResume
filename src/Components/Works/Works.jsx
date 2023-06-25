@@ -8,6 +8,7 @@ import wipro from "../../img/wipro.png";
 import sainsburys from "../../img/sainsburys.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
+import { Link } from "react-scroll";
 
 const Works = () => {
   // context
@@ -32,7 +33,15 @@ const Works = () => {
           my awsome services are
           <br />
         </span>
-        <button className="button s-button">Hire Me</button>
+        <Link
+          spy={true}
+          to="Contact"
+          smooth={true}
+          activeClass="activeClass"
+          offset={-30}
+        >
+          <button className="button s-button">Hire Me</button>
+        </Link>
         <div className="blur s-blur" style={{ background: "#ABF1FF94" }}></div>
       </div>
 
