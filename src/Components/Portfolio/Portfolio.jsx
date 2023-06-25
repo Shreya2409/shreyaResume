@@ -1,9 +1,9 @@
 import React, { useContext } from "react";
 import "./Portfolio.css";
 import { Swiper, SwiperSlide } from "swiper/react";
-import Sidebar from "../../img/sidebar.png";
-import Ecommerce from "../../img/ecommerce.png";
-import HOC from "../../img/hoc.png";
+import Sidebar from "../../img/portfolio.png";
+import Ecommerce from "../../img/music_master.png";
+import HOC from "../../img/ecommerce.png";
 import MusicApp from "../../img/musicapp.png";
 import "swiper/css";
 import { themeContext } from "../../Context";
